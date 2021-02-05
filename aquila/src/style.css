@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat',sans-serif;
+    background: linear-gradient(to right, #BD0F4D 50%, #CB2964 50%);
+    
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-left:35px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-right: 90px;
+   
+}
+.app{
+    position: relative;
+    display: block;
+    padding-bottom:50px;
+    
+}
+
+.hero{
+   position: relative;
+   margin-top: 10%;
+   left: 25%;
+   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.nav{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    position: absolute;
+    top: 94%;
+    left: 21vw;
+    margin-bottom: 30px;
+}
+
+.crop {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    border-style: solid;
+    border-width:2px;
+    border-color: rgba(255, 255, 255, 0.705);
+    margin-right: 90px;
+}
+  
+.crop  img {
+    margin-left: -10px;
+    display: inline;
+    height: 100%;
+    width: auto;
+  }
+
+.social{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    right: 0px;
+}
+
+.fa {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: white;
+   
+
+}
+
+.fa:hover {
+    animation-name: anime;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anime {
+    0%{
+        
+        transform:rotate(0deg);
+    }
+
+  
+    100%{
+        transform: rotate(360deg);
+
+    }
+}
